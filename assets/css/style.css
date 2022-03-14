@@ -67,7 +67,7 @@ footer {
 }
 
 .header {
-    background: black;
+    background: linear-gradient(90deg, #524FEA, black)
 }
 
 .grid {
@@ -113,6 +113,10 @@ footer {
     border: 3px solid blue;
 }
 
+.button:hover {
+    background-color: blue
+}
+
 .ff1 {
     display: flex;
     justify-content: start;
@@ -132,18 +136,12 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 400px) {
-    .navbutton {
-        width: 30%;
-        height: 30%;
-        font-size: 75%;
-    }
-    .ff1 {
-        align-items: center;
-        text-align: justify;
-    }
-    .ff2 {
-        align-items: center;
+@media screen and (min-width:1024px) {
+   
+    ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -167,11 +165,25 @@ footer {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
-}
-@media screen and (min-width:1024px) {
-    ul {
-        list-style-type: none;
+    .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 5fr 1fr;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .navbutton {
+        width: 30%;
+        height: 30%;
+        font-size: 75%;
+    }
+    .ff1 {
+        align-items: center;
+        text-align: justify;
+    }
+    .ff2 {
+        align-items: center;
+    }
+}
+
+
