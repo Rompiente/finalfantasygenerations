@@ -75,7 +75,7 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
-.navbutton {
+/* .navbutton {
     display: grid;
     text-decoration: none;
     width: 150px;
@@ -88,6 +88,10 @@ footer {
     text-shadow: 5px 5px blue;
     font-size: 23px;
     font-family: Redressed, cursive;
+} */
+
+.navbutton {
+    border: 10px solid rgb(82, 79, 234);
 }
 
 .grid-container {
@@ -146,15 +150,15 @@ footer {
 }
 
 @media screen and (max-width:1000px) {
-    .navbutton {
+    /* .navbutton {
         width: 50%;
         height: 50%;
         font-size: 90%;
-    }
+    }  */
 
     .ff1 {
         align-items: center;
-        text-align: justify;
+        text-align: end;
     }
     .ff2 {
         align-items: center;
@@ -172,11 +176,11 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-    .navbutton {
+    /* .navbutton {
         width: 30%;
         height: 30%;
         font-size: 75%;
-    }
+    } */
     .ff1 {
         align-items: center;
         text-align: justify;
