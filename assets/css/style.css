@@ -75,23 +75,14 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
-/* .navbutton {
-    display: grid;
-    text-decoration: none;
-    width: 150px;
-    height: 50px;
-    padding: 10px;
-    border: 10px solid rgb(82, 79, 234);
-    margin: auto;
-    text-align: center;
-    color: rgb(82, 79, 234);
-    text-shadow: 5px 5px blue;
-    font-size: 23px;
-    font-family: Redressed, cursive;
-} */
-
 .navbutton {
     border: 10px solid rgb(82, 79, 234);
+
+}
+
+.nav-item {
+    text-align: center;
+    font-family: Open Sans Condensed, cursive;
 }
 
 .grid-container {
@@ -150,11 +141,6 @@ footer {
 }
 
 @media screen and (max-width:1000px) {
-    /* .navbutton {
-        width: 50%;
-        height: 50%;
-        font-size: 90%;
-    }  */
 
     .ff1 {
         align-items: center;
@@ -176,17 +162,29 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-    /* .navbutton {
+    .navbutton {
         width: 30%;
         height: 30%;
         font-size: 75%;
-    } */
-    .ff1 {
-        align-items: center;
-        text-align: justify;
     }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+     }
+    .ff1 {
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        text-align: center;
+     }
     .ff2 {
-        align-items: center;
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        text-align: center;
+    }
+    .ffimg {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-row: 1;
     }
 }
 
