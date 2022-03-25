@@ -1,0 +1,50 @@
+.logo {
+    display: inline;
+    width: 200px;
+    height: 150px;
+    padding: 1px;
+    border: 10px solid rgb(82, 79, 234);
+}
+
+.header {
+    background: linear-gradient(90deg, #524FEA, black)
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbutton {
+    border: 10px solid rgb(82, 79, 234);
+
+}
+
+.nav-item {
+    text-align: center;
+    font-family: Open Sans Condensed, cursive;
+}
+
+@media screen and (min-width:1024px) {
+   
+    ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:1000px) {
+
+    ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navbutton {
+        width: 30%;
+        height: 30%;
+        font-size: 75%;
+    }
+}
