@@ -9,6 +9,7 @@
 }
 
 .ffimg {
+    align-self: center;
     width: 250px;
     height: 150px;
     border: 5px solid rgb(82, 79, 234);
@@ -42,6 +43,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.offcanvas {
+    height: max-content;
 }
 
 @media screen and (max-width:1000px) {

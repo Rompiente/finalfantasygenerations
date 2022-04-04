@@ -17,8 +17,8 @@ body {
 
 h1 {
   color: white;
-  font-family: Arial, sans-serif;
-  font-size: 40px;
+  font-family: "'Arial', sans-serif";
+  font-size: 3rem;
   text-align: center;
   background-color: #524fea;
   margin: auto;
@@ -27,19 +27,19 @@ h1 {
 
 h2 {
   text-align: center;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
+  font-family: "'Arial', sans-serif";
+  font-size: 2rem;
   text-shadow: 5px 5px blue; }
 
 h3 {
   text-align: center;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
+  font-family: "'Arial', sans-serif";
+  font-size: 2rem;
   text-shadow: 5px 5px blue; }
 
 p, form {
-  font-family: Open Sans Condensed, cursive;
-  font-size: 18px; }
+  font-family: "'Open Sans Condensed', cursive";
+  font-size: 1.5rem; }
 
 main {
   color: white;
@@ -70,7 +70,8 @@ footer {
 
 .nav-item {
   text-align: center;
-  font-family: Open Sans Condensed, cursive; }
+  font-family: "'Open Sans Condensed', cursive";
+  font-size: 1.5rem; }
 
 @media screen and (min-width: 1024px) {
   ul {
@@ -99,6 +100,7 @@ footer {
   grid-column: 2; }
 
 .ffimg {
+  align-self: center;
   width: 250px;
   height: 150px;
   border: 5px solid #524fea; }
@@ -127,6 +129,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.offcanvas {
+  height: max-content; }
 
 @media screen and (max-width: 1000px) {
   .ff1 {

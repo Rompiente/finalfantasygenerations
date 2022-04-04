@@ -17,12 +17,12 @@
 
 .navbutton {
     border: 10px solid rgb(82, 79, 234);
-
 }
 
 .nav-item {
     text-align: center;
-    font-family: Open Sans Condensed, cursive;
+    font-family: map-get($fonts, text);
+    font-size: map-get($sizes, text);
 }
 
 @media screen and (min-width:1024px) {
